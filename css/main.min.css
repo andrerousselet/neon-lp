@@ -275,4 +275,58 @@ header nav ul li a:hover {
   right: 8.7rem;
   bottom: 4.7rem;
   z-index: 1;
+}
+
+.main-section {
+  padding-top: 12.9rem;
+}
+.main-section .main-section-left {
+  width: 100%;
+  max-width: 27.73rem;
+}
+.main-section .main-section-left .circle-phone {
+  width: 100%;
+  max-width: 27.73rem;
+  position: relative;
+}
+.main-section .main-section-left .circle-phone .circle {
+  position: absolute;
+  z-index: -1;
+  top: 8.7rem;
+  right: 11.43rem;
+  max-width: 37.7rem;
+}
+.main-section .main-section-left .download-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.main-section .main-section-left .download-area .dots {
+  margin-top: 2.6rem;
+  margin-bottom: 2.1rem;
+}
+.main-section .main-section-left .download-area .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.main-section .main-section-left .download-area .info h3 {
+  margin-top: 3.6rem;
+  color: #33303E;
+}
+.main-section .main-section-left .download-area .info p {
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #5F5C6B;
+  opacity: 0.8;
+  margin-bottom: 2.6rem;
+}
+.main-section .main-section-left .download-area .info ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.341rem;
 }/*# sourceMappingURL=main.min.css.map */

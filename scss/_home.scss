@@ -98,3 +98,63 @@
     }
   }
 }
+
+.main-section {
+  padding-top: 12.9rem;
+
+  .main-section-left {
+    width: 100%;
+    max-width: 27.73rem;
+
+    .circle-phone {
+      width: 100%;
+      max-width: 27.73rem;
+      position: relative;
+
+      .circle {
+        position: absolute;
+        z-index: -1;
+        top: 8.7rem;
+        right: 11.43rem;
+        max-width: 37.7rem;
+      }
+    }
+
+    .download-area {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+
+      .dots {
+        margin-top: 2.6rem;
+        margin-bottom: 2.1rem;
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        h3 {
+          margin-top: 3.6rem;
+          color: $grey-600;
+        }
+
+        p {
+          font-size: 1.6rem;
+          line-height: 150%;
+          color: $grey-400;
+          opacity: 0.8;
+          margin-bottom: 2.6rem;
+        }
+
+        ul {
+          @include flex(column, center, space-between);
+          gap: 1.341rem;
+        }
+      }
+    }
+  }
+}
