@@ -102,6 +102,10 @@
 .main-section {
   padding-top: 12.9rem;
 
+  .container {
+    @include flex(row, flex-start, space-between);
+  }
+
   .main-section-left {
     width: 100%;
     max-width: 27.73rem;
@@ -153,6 +157,73 @@
         ul {
           @include flex(column, center, space-between);
           gap: 1.341rem;
+        }
+      }
+    }
+  }
+
+  .main-section-right {
+    width: 100%;
+    max-width: 80rem;
+
+    .main-content {
+      margin-bottom: 14.4rem;
+
+      h2 {
+        max-width: 48.8rem;
+        color: $grey-600;
+        margin-bottom: 4.9rem;
+      }
+
+      ul {
+        margin-bottom: 3.2rem;
+
+        li {
+          @include flex(row, center, space-between);
+          border-bottom: 0.1rem solid rgba(225, 224, 231, 0.9);
+          padding: 3.3rem 0;
+
+          &:first-child {
+            padding-top: 0;
+          }
+
+          .item-info {
+            @include flex(row, center, space-between);
+            gap: 4.3rem;
+          }
+
+          .text {
+            h3 {
+              color: $grey-400;
+            }
+
+            p {
+              font-size: 1.8rem;
+              line-height: 150%;
+              color: $grey-300;
+            }
+          }
+        }
+      }
+
+      a {
+        display: inline-block;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 112%;
+        letter-spacing: -0.5px;
+        color: $brand-blue;
+        position: relative;
+
+        &:after {
+          content: "";
+          position: absolute;
+          right: -1.8rem;
+          bottom: 0;
+          width: 1rem;
+          height: 0.3rem;
+          background-color: $brand-yellow;
         }
       }
     }

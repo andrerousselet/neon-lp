@@ -280,6 +280,12 @@ header nav ul li a:hover {
 .main-section {
   padding-top: 12.9rem;
 }
+.main-section .container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
 .main-section .main-section-left {
   width: 100%;
   max-width: 27.73rem;
@@ -329,4 +335,64 @@ header nav ul li a:hover {
   align-items: center;
   justify-content: space-between;
   gap: 1.341rem;
+}
+.main-section .main-section-right {
+  width: 100%;
+  max-width: 80rem;
+}
+.main-section .main-section-right .main-content {
+  margin-bottom: 14.4rem;
+}
+.main-section .main-section-right .main-content h2 {
+  max-width: 48.8rem;
+  color: #33303E;
+  margin-bottom: 4.9rem;
+}
+.main-section .main-section-right .main-content ul {
+  margin-bottom: 3.2rem;
+}
+.main-section .main-section-right .main-content ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid rgba(225, 224, 231, 0.9);
+  padding: 3.3rem 0;
+}
+.main-section .main-section-right .main-content ul li:first-child {
+  padding-top: 0;
+}
+.main-section .main-section-right .main-content ul li .item-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4.3rem;
+}
+.main-section .main-section-right .main-content ul li .text h3 {
+  color: #5F5C6B;
+}
+.main-section .main-section-right .main-content ul li .text p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #7A7786;
+}
+.main-section .main-section-right .main-content a {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 112%;
+  letter-spacing: -0.5px;
+  color: #0073CE;
+  position: relative;
+}
+.main-section .main-section-right .main-content a:after {
+  content: "";
+  position: absolute;
+  right: -1.8rem;
+  bottom: 0;
+  width: 1rem;
+  height: 0.3rem;
+  background-color: #FFC800;
 }/*# sourceMappingURL=main.min.css.map */
