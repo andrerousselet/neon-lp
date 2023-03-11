@@ -470,4 +470,84 @@ header nav ul li a:hover {
 .testimony-section .top .swiper-pagination .swiper-pagination-bullet-active {
   width: 1.723rem;
   border-radius: 0.6rem;
+}
+
+.account-section {
+  padding-top: 12.7rem;
+  padding-bottom: 8.6rem;
+}
+.account-section .container {
+  display: flex;
+}
+.account-section .account-text {
+  max-width: 54.2rem;
+}
+.account-section .account-text h2 {
+  color: #33303E;
+  margin-bottom: 4.5rem;
+}
+.account-section .account-text h2 span {
+  display: block;
+  color: #C6C5CE;
+  font-weight: 600;
+  opacity: 0.8;
+  margin-bottom: 0.9rem;
+}
+.account-section .account-text ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3.7rem;
+  margin-bottom: 4.9rem;
+}
+.account-section .account-text ul li {
+  display: flex;
+  align-items: center;
+}
+.account-section .account-text ul li .icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #00D7D7;
+  border-radius: 0.8rem;
+  margin-right: 2.6rem;
+}
+.account-section .account-text ul li .text h4 {
+  color: #5F5C6B;
+  margin-bottom: 0.4rem;
+}
+.account-section .account-text ul li .text p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  color: #7A7786;
+}
+.account-section .account-image {
+  position: relative;
+  width: 100%;
+  max-width: 71.2rem;
+  height: 59.8rem;
+  margin-right: -3.8rem;
+  left: 12.5rem;
+}
+.account-section .account-image img {
+  position: absolute;
+}
+.account-section .account-image img.iphone-receipt {
+  bottom: 4.8rem;
+  left: 0;
+  z-index: 1;
+}
+.account-section .account-image img.iphone-account {
+  top: 0;
+  right: 23.3rem;
+  z-index: 2;
+}
+.account-section .account-image img.circle {
+  right: 0;
+  bottom: 0;
+  z-index: 0;
 }/*# sourceMappingURL=main.min.css.map */
