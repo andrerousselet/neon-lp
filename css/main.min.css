@@ -186,6 +186,112 @@ header nav ul li a:hover {
   color: #FFC800;
 }
 
+footer {
+  background-color: #0073CE;
+  padding-top: 4.9rem;
+  font-size: 1.4rem;
+}
+footer .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4.9rem;
+  margin-bottom: 5.7rem;
+  border-bottom: 0.2rem solid rgba(73, 196, 253, 0.2);
+}
+footer .top .social-media {
+  display: flex;
+  align-items: center;
+}
+footer .top .social-media span {
+  margin-right: 3rem;
+  line-height: 125%;
+  color: rgba(255, 255, 255, 0.7);
+}
+footer .top .social-media ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+footer .main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 6.2rem;
+  margin-bottom: 3.9rem;
+  border-bottom: 0.2rem solid rgba(73, 196, 253, 0.2);
+}
+footer .main nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 86rem;
+  color: white;
+}
+footer .main nav .menu strong {
+  display: inline-block;
+  padding-bottom: 2.5rem;
+}
+footer .main nav .menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2.9rem;
+}
+footer .main nav .menu ul li a {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.7rem;
+}
+footer .main .btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+  width: 100%;
+  max-width: 28rem;
+}
+footer .main .btns button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.4rem;
+  padding: 1.7rem 2.7rem;
+  border-radius: 0.6rem;
+  background-color: rgba(0, 164, 240, 0.23);
+}
+footer .main .btns button .info {
+  text-align: left;
+  color: white;
+  line-height: 150%;
+}
+footer .bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2.5rem;
+  padding-bottom: 3.8rem;
+  border-bottom: 0.3rem solid #FFC800;
+  line-height: 150%;
+}
+footer .bottom .icon {
+  font-size: 1.8rem;
+}
+footer .bottom p {
+  color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  max-width: 66rem;
+}
+
 .hero-section {
   width: 100%;
   height: 78.6rem;
